@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zimeleni Funeral Services | Soweto & Orange Farm</title>
+    <meta name="description" content="Dignified funeral services, 24/7 house pickups, tombstone specials, and complete gathering logistics in Central Western Jabavu, Soweto and Orange Farm.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        plum: {
+                            50: '#f8f5fa',
+                            100: '#f0eaf5',
+                            700: '#4a255f',
+                            800: '#3B1F4A',
+                            900: '#261231',
+                            950: '#190a21'
+                        },
+                        gold: {
+                            300: '#e5ca78',
+                            400: '#d4af37',
+                            500: '#C29B38',
+                            600: '#a37e24',
+                            700: '#826218'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Cinzel', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #F9FAFB;
+            color: #1F2937;
+        }
+        h1, h2, h3, .font-serif-title {
+            font-family: 'Cinzel', serif;
+        }
+        .gold-gradient {
+            background: linear-gradient(135deg, #D4AF37 0%, #C29B38 50%, #9A7722 100%);
+        }
+        .plum-gradient {
+            background: linear-gradient(135deg, #3B1F4A 0%, #261231 100%);
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .page-section {
+            display: none;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        .page-section.active {
+            display: block;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="pb-20 md:pb-0 flex flex-col min-h-screen">
+
+    <!-- TOP EMERGENCY NOTIFICATION BAR -->
+    <div class="bg-plum-950 text-white text-xs sm:text-sm py-2 px-4 border-b border-gold-500/30">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+            <div class="flex items-center space-x-2">
+                <span class="inline-block w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse"></span>
+                <span class="font-medium text-gold-300">24/7 Urgent House Pick-Up Services</span>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="tel:0842877162" class="hover:text-gold-400 transition flex items-center gap-1.5 font-semibold">
+                    <i class="fa-solid fa-phone-volume text-red-400"></i> 084 287 7162
+                </a>
+                <span class="text-gray-500 hidden sm:inline">|</span>
+                <a href="tel:0119300031" class="hover:text-gold-400 transition hidden sm:flex items-center gap-1.5">
+                    <i class="fa-solid fa-phone text-gold-400"></i> 011 930 0031
+                </a>
+                <span class="text-gray-500 hidden md:inline">|</span>
+                <span class="hidden md:flex items-center gap-1.5 text-gray-300">
+                    <i class="fa-solid fa-location-dot text-gold-400"></i> Central Western Jabavu & Orange Farm
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN NAVIGATION HEADER -->
+    <header class="bg-white sticky top-0 z-40 shadow-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                
+                <!-- Brand Logo -->
+                <button onclick="navigateTo('home')" class="flex items-center gap-3 text-left focus:outline-none group">
+                    <div class="relative w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center flex-shrink-0">
+                        <svg viewBox="0 0 120 120" class="w-full h-full drop-shadow-sm">
+                            <circle cx="60" cy="52" r="36" fill="#C29B38" />
+                            <path d="M22,78 C15,72 12,62 15,52 C18,60 22,65 28,70 C24,62 24,54 28,46 C30,54 33,60 38,66" stroke="#1F2937" stroke-width="3" fill="none" stroke-linecap="round"/>
+                            <circle cx="15" cy="52" r="3" fill="#1F2937"/>
+                            <circle cx="25" cy="48" r="3" fill="#1F2937"/>
+                            <circle cx="16" cy="66" r="3" fill="#1F2937"/>
+                            <path d="M98,78 C105,72 108,62 105,52 C102,60 98,65 92,70 C96,62 96,54 92,46 C90,54 87,60 82,66" stroke="#1F2937" stroke-width="3" fill="none" stroke-linecap="round"/>
+                            <circle cx="105" cy="52" r="3" fill="#1F2937"/>
+                            <circle cx="95" cy="48" r="3" fill="#1F2937"/>
+                            <circle cx="104" cy="66" r="3" fill="#1F2937"/>
+                            <text x="60" y="68" text-anchor="middle" fill="#3B1F4A" font-family="Cinzel, serif" font-weight="800" font-size="52">Z</text>
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="block text-xl sm:text-2xl font-extrabold tracking-wider text-plum-800 font-serif-title leading-none group-hover:text-plum-700 transition">ZIMELENI</span>
+                        <span class="block text-[10px] sm:text-xs font-semibold tracking-[0.2em] text-gold-600 uppercase mt-1">Funeral Services</span>
+                    </div>
+                </button>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center space-x-1">
+                    <button onclick="navigateTo('home')" data-nav="home" class="nav-btn px-3.5 py-2 rounded-lg text-sm font-semibold text-plum-800 bg-plum-50 transition">Home</button>
+                    <button onclick="navigateTo('services')" data-nav="services" class="nav-btn px-3.5 py-2 rounded-lg text-sm font-semibold text-gray-700 hover:text-plum-800 hover:bg-gray-50 transition">Services</button>
+                    <button onclick="navigateTo('products')" data-nav="products" class="nav-btn px-3.5 py-2 rounded-lg text-sm font-semibold text-gray-700 hover:text-plum-800 hover:bg-gray-50 transition flex items-center gap-1.5">
+                        Tombstones & Deals
+                        <span class="bg-red-600 text-white text-[10px] px-1.5 py-0.5 rounded-full font-bold uppercase">Specials</span>
+                    </button>
+                    <button onclick="navigateTo('about')" data-nav="about" class="nav-btn px-3.5 py-2 rounded-lg text-sm font-semibold text-gray-700 hover:text-plum-800 hover:bg-gray-50 transition">About Us</button>
+                    <button onclick="navigateTo('gallery')" data-nav="gallery" class="nav-btn px-3.5 py-2 rounded-lg text-sm font-semibold text-gray-700 hover:text-plum-800 hover:bg-gray-50 transition">Fleet & Gallery</button>
+                    <button onclick="navigateTo('contact')" data-nav="contact" class="nav-btn px-3.5 py-2 rounded-lg text-sm font-semibold text-gray-700 hover:text-plum-800 hover:bg-gray-50 transition">Contact Us</button>
+                </nav>
+
+                <!-- Desktop Action Buttons -->
+                <div class="hidden md:flex items-center space-x-3">
+                    <a href="https://wa.me/27842877162?text=Hello%20Zimeleni%20Funeral%20Services,%20I%20would%20like%20to%20make%20an%20inquiry." target="_blank" rel="noopener noreferrer" class="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2.5 rounded-xl text-sm font-semibold shadow-sm transition flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> WhatsApp
+                    </a>
+                    <a href="tel:0842877162" class="bg-red-700 hover:bg-red-800 text-white px-4 py-2.5 rounded-xl text-sm font-semibold shadow-sm transition flex items-center gap-2">
+                        <i class="fa-solid fa-phone-volume"></i> 24/7 Pick-Up
+                    </a>
+                </div>
+
+                <!-- Mobile Hamburger Button -->
+                <div class="lg:hidden flex items-center">
+                    <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="p-2.5 rounded-xl text-plum-900 hover:bg-plum-50 focus:outline-none border border-gray-200" aria-label="Toggle Menu">
+                        <i id="menu-icon" class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer Navigation -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-gray-200 px-4 pt-2 pb-5 space-y-1.5 shadow-xl">
+            <button onclick="navigateTo('home'); toggleMobileMenu()" data-nav-mobile="home" class="w-full text-left px-4 py-3 rounded-xl text-base font-semibold text-plum-900 bg-plum-50 flex items-center justify-between">
+                <span><i class="fa-solid fa-house w-6 text-gold-600"></i> Home</span>
+                <i class="fa-solid fa-chevron-right text-xs text-gray-400"></i>
+            </button>
+            <button onclick="navigateTo('services'); toggleMobileMenu()" data-nav-mobile="services" class="w-full text-left px-4 py-3 rounded-xl text-base font-semibold text-gray-700 hover:bg-gray-50 flex items-center justify-between">
+                <span><i class="fa-solid fa-hands-holding-circle w-6 text-gold-600"></i> Funeral Services</span>
+                <i class="fa-solid fa-chevron-right text-xs text-gray-400"></i>
+            </button>
+            <button onclick="navigateTo('products'); toggleMobileMenu()" data-nav-mobile="products" class="w-full text-left px-4 py-3 rounded-xl text-base font-semibold text-gray-700 hover:bg-gray-50 flex items-center justify-between">
+                <span><i class="fa-solid fa-monument w-6 text-gold-600"></i> Tombstones & Specials</span>
+                <span class="bg-red-600 text-white text-xs px-2 py-0.5 rounded-full font-bold">Hot Deals</span>
+            </button>
+            <button onclick="navigateTo('about'); toggleMobileMenu()" data-nav-mobile="about" class="w-full text-left px-4 py-3 rounded-xl text-base font-semibold text-gray-700 hover:bg-gray-50 flex items-center justify-between">
+                <span><i class="fa-solid fa-heart w-6 text-gold-600"></i> About Zimeleni</span>
+                <i class="fa-solid fa-chevron-right text-xs text-gray-400"></i>
+            </button>
+            <button onclick="navigateTo('gallery'); toggleMobileMenu()" data-nav-mobile="gallery" class="w-full text-left px-4 py-3 rounded-xl text-base font-semibold text-gray-700 hover:bg-gray-50 flex items-center justify-between">
+                <span><i class="fa-solid fa-images w-6 text-gold-600"></i> Fleet & Gallery</span>
+                <i class="fa-solid fa-chevron-right text-xs text-gray-400"></i>
+            </button>
+            <button onclick="navigateTo('contact'); toggleMobileMenu()" data-nav-mobile="contact" class="w-full text-left px-4 py-3 rounded-xl text-base font-semibold text-gray-700 hover:bg-gray-50 flex items-center justify-between">
+                <span><i class="fa-solid fa-location-dot w-6 text-gold-600"></i> Branches & Contact</span>
+                <i class="fa-solid fa-chevron-right text-xs text-gray-400"></i>
+            </button>
+            
+            <div class="pt-3 mt-2 border-t border-gray-100 grid grid-cols-2 gap-2">
+                <a href="tel:0119300031" class="text-center py-2.5 px-3 rounded-xl bg-plum-50 text-plum-900 font-semibold text-xs flex items-center justify-center gap-1.5">
+                    <i class="fa-solid fa-phone text-gold-600"></i> 011 930 0031
+                </a>
+                <a href="tel:0736244640" class="text-center py-2.5 px-3 rounded-xl bg-plum-50 text-plum-900 font-semibold text-xs flex items-center justify-center gap-1.5">
+                    <i class="fa-solid fa-mobile-screen text-gold-600"></i> 073 624 4640
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- =========================================================================
+         PAGE 1: HOME PAGE
+         ========================================================================= -->
+    <main id="page-home" class="page-section active flex-grow">
+        
+        <!-- Hero Section with Background Image (hero.jpg) -->
+        <section class="relative bg-plum-950 text-white overflow-hidden py-16 sm:py-24 lg:py-28">
+            <div class="absolute inset-0 z-0">
+                <img src="hero.jpg" data-fallback="hero.jpeg" alt="Zimeleni Funeral Services Hero Background" class="auto-img w-full h-full object-cover opacity-50">
+                <div class="absolute inset-0 bg-gradient-to-r from-plum-950/85 via-plum-950/65 to-plum-950/30"></div>
+            </div>
+            
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col items-start text-left space-y-6">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold-500/20 border border-gold-400/40 text-gold-300 text-xs sm:text-sm font-semibold shadow-sm">
+                    <i class="fa-solid fa-dove"></i>
+                    <span>Soweto (Jabavu) & Orange Farm Branches</span>
+                </div>
+                
+                <h1 class="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight max-w-3xl font-serif-title">
+                    Supporting Families with <span class="text-gold-400">Dignity, Respect,</span> and Care.
+                </h1>
+                
+                <p class="text-base sm:text-lg text-gray-200 max-w-2xl leading-relaxed">
+                    In times of loss, Zimeleni Funeral Services stands by your family. We offer 24-hour dignified house removals, comprehensive funeral arrangements, premium tombstones, and complete event infrastructure across Soweto and Gauteng.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row justify-start gap-3.5 pt-4 w-full sm:w-auto">
+                    <a href="tel:0842877162" class="bg-red-600 hover:bg-red-700 text-white font-bold px-7 py-4 rounded-xl shadow-lg transition flex items-center justify-center gap-3 text-base">
+                        <i class="fa-solid fa-truck-medical animate-bounce"></i>
+                        <span>24/7 House Pick-Up: 084 287 7162</span>
+                    </a>
+                    <button onclick="navigateTo('products')" class="gold-gradient hover:opacity-95 text-plum-950 font-bold px-7 py-4 rounded-xl shadow-lg transition flex items-center justify-center gap-2 text-base">
+                        <i class="fa-solid fa-tags"></i>
+                        <span>View Tombstone Specials</span>
+                    </button>
+                </div>
+
+                <div class="pt-8 max-w-xl w-full flex flex-wrap justify-start gap-6 sm:gap-8 border-t border-white/15 text-xs sm:text-sm">
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-star text-gold-400 text-base"></i>
+                        <span><strong>4.2★</strong> Google Rated</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-clock text-gold-400 text-base"></i>
+                        <span><strong>24/7</strong> Response</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-shield-heart text-gold-400 text-base"></i>
+                        <span><strong>Full</strong> Vigil Logistics</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emergency Notification Ribbon -->
+        <section class="bg-red-50 border-y border-red-200 py-6 px-4">
+            <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="flex items-start sm:items-center gap-4">
+                    <div class="w-12 h-12 rounded-2xl bg-red-600 text-white flex items-center justify-center flex-shrink-0 shadow-sm">
+                        <i class="fa-solid fa-phone-volume text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-base sm:text-lg font-bold text-gray-900">Has a Loved One Passed Away at Home or Hospital?</h3>
+                        <p class="text-xs sm:text-sm text-gray-600">Contact us immediately for 24/7 urgent body collection, registration assistance, and cold storage.</p>
+                    </div>
+                </div>
+                <div class="flex flex-wrap gap-2 w-full md:w-auto">
+                    <a href="tel:0842877162" class="flex-1 md:flex-initial text-center bg-red-700 hover:bg-red-800 text-white font-bold px-4 py-2.5 rounded-xl text-sm transition">
+                        <i class="fa-solid fa-phone mr-1"></i> 084 287 7162
+                    </a>
+                    <a href="tel:0736244640" class="flex-1 md:flex-initial text-center bg-white hover:bg-gray-100 text-red-800 border border-red-300 font-bold px-4 py-2.5 rounded-xl text-sm transition">
+                        073 624 4640
+                    </a>
+                    <a href="tel:0119300031" class="flex-1 md:flex-initial text-center bg-white hover:bg-gray-100 text-gray-800 border border-gray-300 font-bold px-4 py-2.5 rounded-xl text-sm transition">
+                        011 930 0031
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visual Highlights Strip (Fixed with Safe Encoding and Multi-Fallbacks) -->
+        <section class="py-14 bg-white border-b border-gray-200 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 gap-4">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-widest text-gold-600">Visual Tour</span>
+                        <h2 class="text-2xl sm:text-3xl font-bold text-plum-900 font-serif-title mt-1">Our Equipment & Memorial Craftsmanship</h2>
+                    </div>
+                    <button onclick="navigateTo('gallery')" class="text-xs font-bold text-plum-800 hover:text-gold-600 uppercase tracking-wider flex items-center gap-1.5 border-b border-plum-800 pb-0.5">
+                        Open Full Gallery <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                    <!-- Photo 1: Fleet Vito (Fixed # encoding) -->
+                    <div class="rounded-2xl border border-gray-200 overflow-hidden bg-gray-50 flex flex-col group shadow-sm hover:shadow-md transition">
+                        <div class="aspect-[16/10] overflow-hidden bg-plum-950">
+                            <img src="Slot %231 Mercedes Vito Vans (Fleet).jpg" 
+                                 data-fallback="Slot #1 Mercedes Vito Vans (Fleet).jpg|Slot 1 Mercedes Vito Vans (Fleet).jpg" 
+                                 alt="Mercedes Vito Vans (Fleet)" 
+                                 class="auto-img w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="p-4 bg-white">
+                            <h4 class="font-bold text-sm text-gray-900">Mercedes-Benz Vito Fleet</h4>
+                            <p class="text-xs text-gray-500 mt-1">Spotless vehicles providing peaceful comfort for relatives.</p>
+                        </div>
+                    </div>
+
+                    <!-- Photo 2: Tent Setup -->
+                    <div class="rounded-2xl border border-gray-200 overflow-hidden bg-gray-50 flex flex-col group shadow-sm hover:shadow-md transition">
+                        <div class="aspect-[16/10] overflow-hidden bg-plum-950">
+                            <img src="Slot 2 12m x 6m Marquee Setup.jpg" 
+                                 data-fallback="Slot 2 12m x 6m Marquee Setup.jpeg" 
+                                 alt="12m x 6m Marquee Setup" 
+                                 class="auto-img w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="p-4 bg-white">
+                            <h4 class="font-bold text-sm text-gray-900">12m x 6m Gathering Marquee</h4>
+                            <p class="text-xs text-gray-500 mt-1">Full night vigil setup with clean tables and chairs.</p>
+                        </div>
+                    </div>
+
+                    <!-- Photo 3: Tombstone Showroom (Fixed double space match) -->
+                    <div class="rounded-2xl border border-gray-200 overflow-hidden bg-gray-50 flex flex-col group shadow-sm hover:shadow-md transition">
+                        <div class="aspect-[16/10] overflow-hidden bg-plum-950">
+                            <img src="Slot  3 Granite Showroom.jpg" 
+                                 data-fallback="Slot 3 Granite Showroom.jpg|Slot%20%203%20Granite%20Showroom.jpg" 
+                                 alt="Granite Showroom" 
+                                 class="auto-img w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="p-4 bg-white">
+                            <h4 class="font-bold text-sm text-gray-900">Granite Memorial Showroom</h4>
+                            <p class="text-xs text-gray-500 mt-1">Polished Rustenburg granite with custom gold engraving.</p>
+                        </div>
+                    </div>
+
+                    <!-- Photo 4: VIP Trailer -->
+                    <div class="rounded-2xl border border-gray-200 overflow-hidden bg-gray-50 flex flex-col group shadow-sm hover:shadow-md transition">
+                        <div class="aspect-[16/10] overflow-hidden bg-plum-950">
+                            <img src="Slot 4 VIP Mobile Toilet Trailer.jpg" 
+                                 data-fallback="Slot 4 VIP Mobile Toilet Trailer.jpeg" 
+                                 alt="VIP Mobile Toilet Trailer" 
+                                 class="auto-img w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="p-4 bg-white">
+                            <h4 class="font-bold text-sm text-gray-900">VIP Mobile Toilet Trailer</h4>
+                            <p class="text-xs text-gray-500 mt-1">Hygienic flush sanitation trailer for guests and mourners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pillars Section: Serving Soweto Families with Care -->
+        <section class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-bold uppercase tracking-widest text-gold-600">Comprehensive Dignity</span>
+                <h2 class="text-2xl sm:text-4xl font-bold text-plum-900 mt-2 font-serif-title">Serving Soweto Families with Care</h2>
+                <p class="text-gray-600 mt-3 text-sm sm:text-base">We handle every step of the funeral process with cultural respect, modern vehicles, and reliable gathering equipment.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1: Full Funeral Burial -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md hover:border-gold-400 transition flex flex-col">
+                    <div class="aspect-[16/10] overflow-hidden bg-plum-950 border-b border-gray-100">
+                        <img src="Pillar Slot 1 Burial & Cemetery Setup.jpg" 
+                             data-fallback="Pillar Slot 1 Burial & Cemetery Setup.jpeg" 
+                             alt="Burial & Cemetery Setup" 
+                             class="auto-img w-full h-full object-cover hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-5 flex flex-col justify-between flex-grow">
+                        <div>
+                            <h3 class="text-base font-bold text-plum-900 mb-1.5">Full Funeral Burial</h3>
+                            <p class="text-xs text-gray-600 leading-relaxed">Mortuary preservation, Home Affairs BI-1663 paperwork, grave bookings, floral tributes, and church coordination.</p>
+                        </div>
+                        <button onclick="navigateTo('services')" class="mt-4 text-xs font-bold text-gold-700 hover:text-plum-900 flex items-center gap-1 uppercase tracking-wider">
+                            Explore Details <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 2: Granite Tombstones -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md hover:border-gold-400 transition flex flex-col">
+                    <div class="aspect-[16/10] overflow-hidden bg-plum-950 border-b border-gray-100">
+                        <img src="Pillar Slot 2 Granite Headstone Display.jpg" 
+                             data-fallback="Pillar Slot 2 Granite Headstone Display.jpeg" 
+                             alt="Granite Headstone Display" 
+                             class="auto-img w-full h-full object-cover hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-5 flex flex-col justify-between flex-grow">
+                        <div>
+                            <h3 class="text-base font-bold text-plum-900 mb-1.5">Granite Tombstones</h3>
+                            <p class="text-xs text-gray-600 leading-relaxed">Durable, engraved headstones. Take advantage of our popular "Buy 1 Get 1 Free" special starting at R3,999.</p>
+                        </div>
+                        <button onclick="navigateTo('products')" class="mt-4 text-xs font-bold text-gold-700 hover:text-plum-900 flex items-center gap-1 uppercase tracking-wider">
+                            View Specials <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 3: Gathering & Vigil Setup (Handles exact filename "Setu.jpg" or "Setup.jpg") -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md hover:border-gold-400 transition flex flex-col">
+                    <div class="aspect-[16/10] overflow-hidden bg-plum-950 border-b border-gray-100">
+                        <img src="Pillar Slot 3 Vigil Tent & Chairs Setu.jpg" 
+                             data-fallback="Pillar Slot 3 Vigil Tent & Chairs Setup.jpg|Pillar Slot 3 Vigil Tent & Chairs Setu.jpeg" 
+                             alt="Vigil Tent & Chairs Setup" 
+                             class="auto-img w-full h-full object-cover hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-5 flex flex-col justify-between flex-grow">
+                        <div>
+                            <h3 class="text-base font-bold text-plum-900 mb-1.5">Gathering & Vigil Setup</h3>
+                            <p class="text-xs text-gray-600 leading-relaxed">High-peak tents, VIP flush mobile restrooms, 100 chairs, 4 foldable tables, and commercial catering food warmers.</p>
+                        </div>
+                        <button onclick="navigateTo('services')" class="mt-4 text-xs font-bold text-gold-700 hover:text-plum-900 flex items-center gap-1 uppercase tracking-wider">
+                            See Equipment <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 4: Mercedes-Benz Fleet (Slot 4 Executive Fleet) -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md hover:border-gold-400 transition flex flex-col">
+                    <div class="aspect-[16/10] overflow-hidden bg-plum-950 border-b border-gray-100">
+                        <img src="Pillar Slot  4 Executive Mercedes Fleet.jpg" 
+                             data-fallback="Pillar Slot 4 Executive Mercedes Fleet.jpg|Pillar%20Slot%204%20Executive%20Mercedes%20Fleet.jpg" 
+                             alt="Executive Mercedes Fleet" 
+                             class="auto-img w-full h-full object-cover hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-5 flex flex-col justify-between flex-grow">
+                        <div>
+                            <h3 class="text-base font-bold text-plum-900 mb-1.5">Mercedes-Benz Fleet</h3>
+                            <p class="text-xs text-gray-600 leading-relaxed">Clean Mercedes Vito family transport, executive hearses, and dependable long-distance repatriation across SA.</p>
+                        </div>
+                        <button onclick="navigateTo('gallery')" class="mt-4 text-xs font-bold text-gold-700 hover:text-plum-900 flex items-center gap-1 uppercase tracking-wider">
+                            View Fleet <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Locations / Nearest Branch Strip -->
+        <section class="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8 border-t border-gray-200">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-8">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-plum-900 font-serif-title">Find Your Nearest Zimeleni Branch</h2>
+                    <p class="text-gray-600 text-sm mt-1">We are in and around Soweto & Orange Farm to assist you in person.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                    <!-- Branch 1: Soweto -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 flex flex-col justify-between">
+                        <div>
+                            <div class="inline-block px-2.5 py-1 bg-plum-50 text-plum-800 text-xs font-bold rounded-md mb-3">HEAD OFFICE • SOWETO</div>
+                            <h3 class="text-lg font-bold text-gray-900">Central Western Jabavu</h3>
+                            
+                            <!-- Branch Building Image -->
+                            <div class="rounded-xl aspect-[16/9] my-3 overflow-hidden border border-gray-200 shadow-inner bg-plum-950">
+                                <img src="Jabavu Head Office Building (415 Limakatso St).jpg" 
+                                     data-fallback="Jabavu Head Office Building (415 Limakatso St).jpeg" 
+                                     alt="Jabavu Head Office Building" 
+                                     class="auto-img w-full h-full object-cover">
+                            </div>
+
+                            <p class="text-sm text-gray-600 mt-2">
+                                <i class="fa-solid fa-location-dot text-gold-600 mr-1.5"></i> 
+                                415 Dimakatso / Limakatso Street, Central Western Jabavu, Soweto, 1809
+                            </p>
+                            <p class="text-xs text-gray-500 mt-1 pl-5">Near Midway Train Station</p>
+                            <div class="mt-3 text-sm text-gray-700">
+                                <strong>Phone:</strong> <a href="tel:0119300031" class="text-plum-800 hover:underline">011 930 0031</a> / <a href="tel:0842877162" class="text-plum-800 hover:underline">084 287 7162</a>
+                            </div>
+                        </div>
+                        <div class="mt-5 pt-4 border-t border-gray-100 flex gap-2">
+                            <a href="https://maps.google.com/?q=415+Limakatso+St+Central+Western+Jabavu+Soweto" target="_blank" rel="noopener noreferrer" class="flex-1 bg-plum-800 hover:bg-plum-900 text-white text-xs font-bold py-2.5 px-3 rounded-xl text-center transition flex items-center justify-center gap-1.5">
+                                <i class="fa-solid fa-diamond-turn-right"></i> Directions
+                            </a>
+                            <a href="tel:0119300031" class="bg-gray-100 hover:bg-gray-200 text-gray-800 text-xs font-bold py-2.5 px-4 rounded-xl transition flex items-center justify-center">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Branch 2: Orange Farm -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 flex flex-col justify-between">
+                        <div>
+                            <div class="inline-block px-2.5 py-1 bg-gold-50 text-gold-800 text-xs font-bold rounded-md mb-3">BRANCH • ORANGE FARM</div>
+                            <h3 class="text-lg font-bold text-gray-900">Orange Farm Branch</h3>
+                            
+                            <!-- Branch Building Image -->
+                            <div class="rounded-xl aspect-[16/9] my-3 overflow-hidden border border-gray-200 shadow-inner bg-plum-950">
+                                <img src="Orange Farm Branch Office (Driezek Ext 5).jpg" 
+                                     data-fallback="Orange Farm Branch Office (Driezek Ext 5).jpeg" 
+                                     alt="Orange Farm Branch Office" 
+                                     class="auto-img w-full h-full object-cover">
+                            </div>
+
+                            <p class="text-sm text-gray-600 mt-2">
+                                <i class="fa-solid fa-location-dot text-gold-600 mr-1.5"></i> 
+                                Driezek Ext 5, Orange Farm, Gauteng, 1804
+                            </p>
+                            <p class="text-xs text-gray-500 mt-1 pl-5">Opposite Dumping Side / Main Arterial</p>
+                            <div class="mt-3 text-sm text-gray-700">
+                                <strong>Direct Dispatch:</strong> <a href="tel:0842877162" class="text-plum-800 hover:underline">084 287 7162</a> / <a href="tel:0736244640" class="text-plum-800 hover:underline">073 624 4640</a>
+                            </div>
+                        </div>
+                        <div class="mt-5 pt-4 border-t border-gray-100 flex gap-2">
+                            <button onclick="navigateTo('contact')" class="flex-1 bg-gold-600 hover:bg-gold-700 text-white text-xs font-bold py-2.5 px-3 rounded-xl text-center transition flex items-center justify-center gap-1.5">
+                                <i class="fa-solid fa-envelope"></i> Inquire Orange Farm
+                            </button>
+                            <a href="tel:0842877162" class="bg-gray-100 hover:bg-gray-200 text-gray-800 text-xs font-bold py-2.5 px-4 rounded-xl transition flex items-center justify-center">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =========================================================================
+         PAGE 2: SERVICES PAGE
+         ========================================================================= -->
+    <section id="page-services" class="page-section flex-grow">
+        <div class="plum-gradient text-white py-14 px-4 sm:px-6 lg:px-8 text-center relative">
+            <div class="max-w-4xl mx-auto">
+                <span class="text-gold-300 text-xs font-bold uppercase tracking-widest">Our Service Offerings</span>
+                <h1 class="text-3xl sm:text-5xl font-bold mt-2">Comprehensive Funeral Services</h1>
+                <p class="text-gray-200 text-sm sm:text-base mt-3 max-w-2xl mx-auto">
+                    From the instant you call us through the post-burial gathering, we provide complete, transparent support tailored to our community's needs.
+                </p>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-12">
+            
+            <!-- Service 1: 24/7 Pick Up & Mortuary Care -->
+            <div class="bg-white rounded-3xl p-6 sm:p-10 border border-gray-200 shadow-sm space-y-4">
+                <div class="inline-flex items-center gap-2 px-3 py-1 bg-red-50 text-red-700 text-xs font-bold rounded-lg border border-red-200">
+                    <i class="fa-solid fa-clock"></i> Immediate 24/7 Response
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-plum-900 font-serif-title">House Pick-Up & Mortuary Care</h2>
+                <p class="text-gray-600 text-sm sm:text-base leading-relaxed max-w-4xl">
+                    Losing a loved one at home or hospital requires prompt, gentle care. Our team is available 24 hours a day, 7 days a week, for respectful collection and transport to our cold storage facility.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-2">
+                    <div class="p-4 bg-gray-50 rounded-2xl border border-gray-100 flex items-start gap-3">
+                        <i class="fa-solid fa-check text-gold-600 mt-1"></i>
+                        <span class="text-xs sm:text-sm text-gray-700">Respectful home and clinic removals</span>
+                    </div>
+                    <div class="p-4 bg-gray-50 rounded-2xl border border-gray-100 flex items-start gap-3">
+                        <i class="fa-solid fa-check text-gold-600 mt-1"></i>
+                        <span class="text-xs sm:text-sm text-gray-700">Modern hygienic cold-room preservation</span>
+                    </div>
+                    <div class="p-4 bg-gray-50 rounded-2xl border border-gray-100 flex items-start gap-3">
+                        <i class="fa-solid fa-check text-gold-600 mt-1"></i>
+                        <span class="text-xs sm:text-sm text-gray-700">Hygienic body washing & dressing</span>
+                    </div>
+                    <div class="p-4 bg-gray-50 rounded-2xl border border-gray-100 flex items-start gap-3">
+                        <i class="fa-solid fa-check text-gold-600 mt-1"></i>
+                        <span class="text-xs sm:text-sm text-gray-700">Cross-province repatriation</span>
+                    </div>
+                </div>
+                <div class="pt-2">
+                    <a href="tel:0842877162" class="bg-red-700 hover:bg-red-800 text-white text-sm font-bold px-6 py-3 rounded-xl transition inline-flex items-center gap-2">
+                        <i class="fa-solid fa-phone"></i> Call Emergency Dispatch: 084 287 7162
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 2: Gathering Infrastructure Hire -->
+            <div class="bg-white rounded-3xl p-6 sm:p-10 border border-gray-200 shadow-sm space-y-4">
+                <div class="inline-flex items-center gap-2 px-3 py-1 bg-plum-50 text-plum-800 text-xs font-bold rounded-lg border border-plum-100">
+                    <i class="fa-solid fa-house-chimney-window"></i> Home Vigil Logistics
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-plum-900 font-serif-title">Night Vigil & Gathering Infrastructure</h2>
+                <p class="text-gray-600 text-sm sm:text-base leading-relaxed max-w-4xl">
+                    In our African culture, honoring our departed means hosting relatives, neighbors, and church congregants during night vigils and post-funeral catering. We provide all the physical assets your home requires without hiring from multiple suppliers.
+                </p>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs sm:text-sm text-gray-700 bg-gray-50 p-5 rounded-2xl border border-gray-200">
+                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600"></i> 12m x 6m White Tent</div>
+                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600"></i> 100 Sturdy Black Chairs</div>
+                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600"></i> VIP Trailer Restroom</div>
+                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600"></i> Commercial Food Warmers</div>
+                </div>
+                <div class="pt-2">
+                    <a href="https://wa.me/27842877162?text=Hello%20Zimeleni,%20I%20would%20like%20a%20quote%20for%20Tent,%20VIP%20Toilet,%20Tables%20and%20Chairs%20hire." target="_blank" rel="noopener noreferrer" class="bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-bold px-6 py-3 rounded-xl transition inline-flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> Inquire Gathering Hire
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 3: Documentation & Family Reception Desk -->
+            <div class="bg-white rounded-3xl p-6 sm:p-10 border border-gray-200 shadow-sm grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <div class="lg:col-span-7 space-y-4">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 bg-gold-50 text-gold-800 text-xs font-bold rounded-lg border border-gold-200">
+                        <i class="fa-solid fa-file-signature"></i> Smooth Administration
+                    </div>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-plum-900 font-serif-title">Home Affairs & Cemetery Registrations</h2>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                        Navigating legal documents while mourning is overwhelming. Our administrative coordinators work directly with the Department of Home Affairs and Johannesburg City Parks / Cemeteries to handle all documentation swiftly.
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-gray-700 pt-1">
+                        <div class="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                            <strong>BI-1663 Notification:</strong> Registration of death with Home Affairs to obtain the official Death Certificate.
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                            <strong>Grave Allocation:</strong> Booking, municipal permits, and gravesite arrangements across Soweto cemeteries (Avalon, Olifantsvlei, etc.).
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5">
+                    <div class="rounded-2xl overflow-hidden shadow-md border border-gray-200 aspect-[4/3] bg-plum-950">
+                        <img src="Service 3 Family Consultation & Support Desk.jpg" 
+                             data-fallback="Service 3 Family Consultation & Support Desk.jpeg" 
+                             alt="Family Consultation & Support Desk" 
+                             class="auto-img w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 3: PRODUCTS & TOMBSTONES PAGE (Fixed # in filename)
+         ========================================================================= -->
+    <section id="page-products" class="page-section flex-grow">
+        <div class="plum-gradient text-white py-14 px-4 sm:px-6 lg:px-8 text-center relative">
+            <div class="max-w-4xl mx-auto">
+                <span class="text-gold-300 text-xs font-bold uppercase tracking-widest">Handcrafted Granite Memorials</span>
+                <h1 class="text-3xl sm:text-5xl font-bold mt-2">Tombstones & Promotional Specials</h1>
+                <p class="text-gray-200 text-sm sm:text-base mt-3 max-w-2xl mx-auto">
+                    Built to endure through generations. Memorials can be respectfully viewed below along with our flyer promotions.
+                </p>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
+            
+            <div class="bg-plum-50 border-l-4 border-gold-500 p-4 rounded-r-2xl">
+                <div class="flex items-start gap-3">
+                    <i class="fa-solid fa-circle-info text-gold-700 text-base mt-0.5"></i>
+                    <div>
+                        <h4 class="text-xs font-bold text-plum-900 uppercase">Respectful Memorial Presentation</h4>
+                        <p class="text-xs text-gray-600 mt-0.5">
+                            Our showroom models honor the tradition of tombstone unveilings (*umsebenzi / go ribega lentswe*). Below are our featured specials from the official flyer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROMO 1: BUY ONE GET ONE FREE BANNER -->
+            <div class="bg-gradient-to-r from-red-700 via-red-600 to-plum-900 rounded-3xl p-6 sm:p-10 text-white shadow-xl border-2 border-gold-400">
+                <div class="flex flex-col lg:flex-row items-center justify-between gap-6">
+                    <div class="space-y-3 text-center lg:text-left">
+                        <div class="inline-flex items-center gap-2 bg-yellow-400 text-plum-950 font-black text-xs px-3 py-1 rounded-full uppercase tracking-wider shadow">
+                            Flyer Hot Deal
+                        </div>
+                        <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight font-serif-title">
+                            BUY ONE GET ONE FREE!
+                        </h2>
+                        <p class="text-gray-100 text-sm sm:text-base max-w-2xl">
+                            Order any qualifying memorial stone from only <strong class="text-yellow-300 font-bold">R3,999</strong> and receive a second accompanying tombstone completely free! Perfect for companion family burials and double unveilings.
+                        </p>
+                    </div>
+                    <div class="flex flex-col sm:flex-row items-center gap-3 w-full lg:w-auto">
+                        <a href="https://wa.me/27842877162?text=Hello%20Zimeleni,%20I%20am%20inquiring%20about%20the%20R3,999%20Buy%20One%20Get%20One%20Free%20Tombstone%20Special." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3.5 px-6 rounded-xl transition flex items-center justify-center gap-2 text-sm shadow-lg">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Inquire on WhatsApp
+                        </a>
+                        <a href="tel:0842877162" class="w-full sm:w-auto bg-white hover:bg-gray-100 text-plum-950 font-bold py-3.5 px-6 rounded-xl transition text-center text-sm shadow-md">
+                            Call 084 287 7162
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROMO 2: R30,000+ FREE EQUIPMENT SPECIFICATION -->
+            <div class="bg-white rounded-3xl p-6 sm:p-8 border border-gray-200 shadow-sm">
+                <div class="border-b border-gray-100 pb-5 mb-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+                    <div>
+                        <span class="text-xs font-bold text-gold-600 uppercase tracking-widest">Premium Monument Package</span>
+                        <h3 class="text-xl sm:text-2xl font-bold text-plum-900 font-serif-title">Tombstone Special: Spend R30 000 & More</h3>
+                    </div>
+                    <div class="bg-gold-50 border border-gold-300 text-gold-800 text-xs font-extrabold px-3 py-1.5 rounded-xl">
+                        EVERYTHING FOR FREE
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+                    <div class="text-center p-4 bg-gray-50 rounded-2xl border border-gray-100">
+                        <i class="fa-solid fa-restroom text-3xl text-plum-800 mb-2"></i>
+                        <span class="block text-xs uppercase text-gray-500 font-semibold">1 Unit</span>
+                        <span class="block text-sm font-bold text-gray-900 mt-0.5">VIP Mobile Toilet</span>
+                    </div>
+                    <div class="text-center p-4 bg-gray-50 rounded-2xl border border-gray-100">
+                        <i class="fa-solid fa-fire-burner text-3xl text-plum-800 mb-2"></i>
+                        <span class="block text-xs uppercase text-gray-500 font-semibold">1 Unit</span>
+                        <span class="block text-sm font-bold text-gray-900 mt-0.5">Food Warmer</span>
+                    </div>
+                    <div class="text-center p-4 bg-gray-50 rounded-2xl border border-gray-100">
+                        <i class="fa-solid fa-chair text-3xl text-plum-800 mb-2"></i>
+                        <span class="block text-xs uppercase text-gray-500 font-semibold">100 Pieces</span>
+                        <span class="block text-sm font-bold text-gray-900 mt-0.5">Gathering Chairs</span>
+                    </div>
+                    <div class="text-center p-4 bg-gray-50 rounded-2xl border border-gray-100">
+                        <i class="fa-solid fa-van-shuttle text-3xl text-plum-800 mb-2"></i>
+                        <span class="block text-xs uppercase text-gray-500 font-semibold">2 Vehicles</span>
+                        <span class="block text-sm font-bold text-gray-900 mt-0.5">Mercedes Vitos</span>
+                    </div>
+                    <div class="text-center p-4 bg-gray-50 rounded-2xl border border-gray-100">
+                        <i class="fa-solid fa-table text-3xl text-plum-800 mb-2"></i>
+                        <span class="block text-xs uppercase text-gray-500 font-semibold">4 Units</span>
+                        <span class="block text-sm font-bold text-gray-900 mt-0.5">Foldable Tables</span>
+                    </div>
+                    <div class="text-center p-4 bg-gray-50 rounded-2xl border border-gray-100">
+                        <i class="fa-solid fa-campground text-3xl text-plum-800 mb-2"></i>
+                        <span class="block text-xs uppercase text-gray-500 font-semibold">1 Large</span>
+                        <span class="block text-sm font-bold text-gray-900 mt-0.5">12 x 6 Tent</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Flyer Headstone: Bhengu Curved Arch (Fixed # encoding) -->
+            <div class="max-w-xl mx-auto">
+                <div class="text-center mb-6">
+                    <span class="text-xs font-bold text-gold-600 uppercase tracking-widest">Featured Memorial</span>
+                    <h3 class="text-2xl font-bold text-plum-900 font-serif-title mt-1">Bhengu Curved Arch Memorial</h3>
+                </div>
+
+                <div class="bg-white rounded-3xl overflow-hidden border border-gray-200 shadow-md">
+                    <div class="aspect-[4/3] bg-plum-950 overflow-hidden">
+                        <img src="Tombstone %23T1 Bhengu Curved Arch.jpg" 
+                             data-fallback="Tombstone #T1 Bhengu Curved Arch.jpg|Tombstone T1 Bhengu Curved Arch.jpg" 
+                             alt="Tombstone Bhengu Curved Arch" 
+                             class="auto-img w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="bg-red-600 text-[11px] font-bold text-white px-2.5 py-1 rounded-lg">Buy 1 Get 1 Free Special</span>
+                            <span class="text-sm font-bold text-gold-600">From R3,999</span>
+                        </div>
+                        <h4 class="font-bold text-gray-900 text-lg">Bhengu Curved Arch Memorial</h4>
+                        <p class="text-xs text-gray-600 mt-1 leading-relaxed">
+                            High polished single headstone with swooping shoulder cut and gold leaf lettering. Built from premium African black granite with durable pedestal foundation.
+                        </p>
+                        <div class="mt-5 flex gap-3">
+                            <a href="https://wa.me/27842877162?text=Hello%20Zimeleni,%20I%20would%20like%20to%20order%20the%20Bhengu%20Curved%20Arch%20Headstone%20(R3,999%20Special)." target="_blank" class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-xl text-center text-xs flex items-center justify-center gap-2">
+                                <i class="fa-brands fa-whatsapp text-base"></i> Order via WhatsApp
+                            </a>
+                            <a href="tel:0842877162" class="bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-3 px-4 rounded-xl text-xs flex items-center justify-center">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive Quick Quote Builder -->
+            <div class="bg-plum-900 text-white rounded-3xl p-6 sm:p-10 shadow-lg border border-gold-500/30">
+                <div class="max-w-2xl mx-auto text-center mb-8">
+                    <span class="text-gold-400 text-xs font-bold uppercase tracking-wider">Fast Quote Calculator</span>
+                    <h3 class="text-2xl sm:text-3xl font-bold mt-1 font-serif-title">Estimate Your Tombstone & Vigil Package</h3>
+                    <p class="text-xs sm:text-sm text-gray-300 mt-2">Select your needs below to see which package discount applies.</p>
+                </div>
+
+                <div class="max-w-xl mx-auto bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/10 space-y-5">
+                    <div>
+                        <label class="block text-xs font-semibold uppercase text-gold-300 mb-1.5">Tombstone Category</label>
+                        <select id="calc-stone" onchange="calculateEstimate()" class="w-full bg-plum-950 text-white border border-gray-600 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-gold-400">
+                            <option value="3999">Buy 1 Get 1 Free Special (R3,999)</option>
+                            <option value="12500">Standard Single Lawn Headstone (Approx R12,500)</option>
+                            <option value="22000">Carved Heart / Book Monument (Approx R22,000)</option>
+                            <option value="32000">Executive Full Slab & Kerbing (R32,000 - Qualifies for Free Setup)</option>
+                            <option value="45000">Luxury Multi-Tier Double Monument (R45,000 - Qualifies for Free Setup)</option>
+                        </select>
+                    </div>
+
+                    <div class="pt-3 border-t border-white/10">
+                        <div class="flex justify-between items-center text-sm">
+                            <span class="text-gray-300">Estimated Tombstone Cost:</span>
+                            <span id="calc-price-display" class="font-bold text-gold-300 text-lg">R3,999.00</span>
+                        </div>
+                        <div id="calc-bonus-box" class="mt-3 p-3 bg-red-950/70 border border-red-500/50 rounded-xl text-xs text-red-200">
+                            <strong>Includes Bonus:</strong> 2nd Companion Headstone FREE!
+                        </div>
+                    </div>
+
+                    <div class="pt-2">
+                        <button onclick="sendCalculatedQuote()" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3.5 px-4 rounded-xl text-center text-sm transition flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Request This Exact Quote via WhatsApp
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 4: ABOUT US PAGE
+         ========================================================================= -->
+    <section id="page-about" class="page-section flex-grow">
+        <div class="plum-gradient text-white py-14 px-4 sm:px-6 lg:px-8 text-center relative">
+            <div class="max-w-4xl mx-auto">
+                <span class="text-gold-300 text-xs font-bold uppercase tracking-widest">About Zimeleni</span>
+                <h1 class="text-3xl sm:text-5xl font-bold mt-2">Dignity, Seriti, & Community Honor</h1>
+                <p class="text-gray-200 text-sm sm:text-base mt-3 max-w-2xl mx-auto">
+                    Rooted in Central Western Jabavu, Soweto, standing beside Gauteng families with honest, respectful send-offs.
+                </p>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-16">
+            
+            <div class="max-w-3xl mx-auto space-y-5 text-center">
+                <span class="text-gold-600 font-bold uppercase text-xs tracking-widest">Our Story & Roots</span>
+                <h2 class="text-2xl sm:text-4xl font-bold text-plum-900 font-serif-title leading-tight">
+                    A Pillar of Compassion in Soweto
+                </h2>
+                <p class="text-gray-600 text-sm sm:text-base leading-relaxed text-left">
+                    Losing someone you love is an agonizing experience. At <strong>Zimeleni Funeral Services</strong>, our name reflects our dedication: to support and uphold families when they need it most.
+                </p>
+                <p class="text-gray-600 text-sm sm:text-base leading-relaxed text-left">
+                    Operating from our head office at <strong>415 Dimakatso / Limakatso Street in Central Western Jabavu</strong>, and reaching across Orange Farm and surrounding townships, we understand our people's customs. We understand the significance of a dignified night vigil (<em>umlindelo</em>), family comfort, and giving our ancestors the reverence they deserve.
+                </p>
+                <p class="text-gray-600 text-sm sm:text-base leading-relaxed text-left">
+                    Whether you need immediate 2am home collection, assistance with local hospital mortuary releases, or guidance in choosing an enduring granite headstone, you will always be greeted with patience, dignity, and cultural honor.
+                </p>
+            </div>
+
+            <!-- The 4 Commitments -->
+            <div class="bg-white rounded-3xl p-8 border border-gray-200 shadow-sm">
+                <h3 class="text-xl sm:text-2xl font-bold text-plum-900 font-serif-title mb-6 text-center">The 4 Zimeleni Commitments</h3>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="p-4 bg-gray-50 rounded-2xl border border-gray-100">
+                        <div class="w-10 h-10 rounded-xl bg-plum-800 text-gold-400 flex items-center justify-center font-bold mb-3">1</div>
+                        <h4 class="font-bold text-gray-900 text-sm">Seriti / Dignity</h4>
+                        <p class="text-xs text-gray-600 mt-1">Every individual is handled with absolute reverence from the first collection to burial.</p>
+                    </div>
+
+                    <div class="p-4 bg-gray-50 rounded-2xl border border-gray-100">
+                        <div class="w-10 h-10 rounded-xl bg-plum-800 text-gold-400 flex items-center justify-center font-bold mb-3">2</div>
+                        <h4 class="font-bold text-gray-900 text-sm">Unbroken Dependability</h4>
+                        <p class="text-xs text-gray-600 mt-1">When we commit to tents, food warmers, or family Vitos arriving at 07:00, we arrive on time.</p>
+                    </div>
+
+                    <div class="p-4 bg-gray-50 rounded-2xl border border-gray-100">
+                        <div class="w-10 h-10 rounded-xl bg-plum-800 text-gold-400 flex items-center justify-center font-bold mb-3">3</div>
+                        <h4 class="font-bold text-gray-900 text-sm">Community Pricing</h4>
+                        <p class="text-xs text-gray-600 mt-1">Transparent packages with zero hidden mortuary fees or surprise transport surcharges.</p>
+                    </div>
+
+                    <div class="p-4 bg-gray-50 rounded-2xl border border-gray-100">
+                        <div class="w-10 h-10 rounded-xl bg-plum-800 text-gold-400 flex items-center justify-center font-bold mb-3">4</div>
+                        <h4 class="font-bold text-gray-900 text-sm">Compassionate Counsel</h4>
+                        <p class="text-xs text-gray-600 mt-1">Our family counselors guide you through paperwork calmly, without rushing or pressure.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Community Connection Banner -->
+            <div class="bg-gray-100 rounded-3xl p-6 sm:p-10 border border-gray-200 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div>
+                    <h3 class="text-xl sm:text-2xl font-bold text-gray-900 font-serif-title">Visit Our Jabavu Consultation Rooms</h3>
+                    <p class="text-sm text-gray-600 mt-1 max-w-xl">
+                        Come sit down with our caring funeral coordinators at 415 Limakatso Street to discuss policy options, grave bookings, or view our stone samples.
+                    </p>
+                </div>
+                <div class="flex gap-3">
+                    <a href="https://maps.google.com/?q=415+Limakatso+St+Central+Western+Jabavu+Soweto" target="_blank" rel="noopener noreferrer" class="bg-plum-800 hover:bg-plum-900 text-white font-bold px-5 py-3 rounded-xl text-sm transition flex items-center gap-2">
+                        <i class="fa-solid fa-map-location-dot"></i> View on Map
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 5: FLEET & GALLERY PAGE
+         ========================================================================= -->
+    <section id="page-gallery" class="page-section flex-grow">
+        <div class="plum-gradient text-white py-14 px-4 sm:px-6 lg:px-8 text-center relative">
+            <div class="max-w-4xl mx-auto">
+                <span class="text-gold-300 text-xs font-bold uppercase tracking-widest">Our Work & Infrastructure</span>
+                <h1 class="text-3xl sm:text-5xl font-bold mt-2">Fleet, Equipment & Memorial Gallery</h1>
+                <p class="text-gray-200 text-sm sm:text-base mt-3 max-w-2xl mx-auto">
+                    A respectful visual overview of our clean family transport, vigil equipment setups, and finished headstone monuments.
+                </p>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-10">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Item 1: Fleet Vito -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="aspect-[16/10] bg-plum-950 overflow-hidden">
+                        <img src="Slot %231 Mercedes Vito Vans (Fleet).jpg" 
+                             data-fallback="Slot #1 Mercedes Vito Vans (Fleet).jpg|Slot 1 Mercedes Vito Vans (Fleet).jpg" 
+                             alt="Mercedes Vito Vans (Fleet)" 
+                             class="auto-img w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <span class="text-[10px] font-bold text-gold-600 uppercase tracking-widest">Executive Fleet</span>
+                        <h4 class="font-bold text-gray-900 text-sm mt-0.5">Mercedes-Benz Vito Family Vans</h4>
+                        <p class="text-xs text-gray-500 mt-1">Air-conditioned Mercedes Vitos provided for the escort of immediate family members.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2: Premises Head Office -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="aspect-[16/10] bg-plum-950 overflow-hidden">
+                        <img src="Jabavu Head Office Building (415 Limakatso St).jpg" 
+                             data-fallback="Jabavu Head Office Building (415 Limakatso St).jpeg" 
+                             alt="415 Limakatso St Building" 
+                             class="auto-img w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <span class="text-[10px] font-bold text-gold-600 uppercase tracking-widest">Soweto Head Office</span>
+                        <h4 class="font-bold text-gray-900 text-sm mt-0.5">415 Limakatso St, Jabavu</h4>
+                        <p class="text-xs text-gray-500 mt-1">Our central facility with secure dispatch yard and family consultation rooms.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3: Equipment Marquee -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="aspect-[16/10] bg-plum-950 overflow-hidden">
+                        <img src="Slot 2 12m x 6m Marquee Setup.jpg" 
+                             data-fallback="Slot 2 12m x 6m Marquee Setup.jpeg" 
+                             alt="12m x 6m Marquee Setup" 
+                             class="auto-img w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <span class="text-[10px] font-bold text-gold-600 uppercase tracking-widest">Vigil Equipment</span>
+                        <h4 class="font-bold text-gray-900 text-sm mt-0.5">12m x 6m Marquee Tent</h4>
+                        <p class="text-xs text-gray-500 mt-1">Heavy-duty weather resistant tents erected neatly at the family residence.</p>
+                    </div>
+                </div>
+
+                <!-- Item 4: Equipment VIP Restroom -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="aspect-[16/10] bg-plum-950 overflow-hidden">
+                        <img src="Slot 4 VIP Mobile Toilet Trailer.jpg" 
+                             data-fallback="Slot 4 VIP Mobile Toilet Trailer.jpeg" 
+                             alt="VIP Mobile Toilet Trailer" 
+                             class="auto-img w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <span class="text-[10px] font-bold text-gold-600 uppercase tracking-widest">Sanitation Units</span>
+                        <h4 class="font-bold text-gray-900 text-sm mt-0.5">VIP Mobile Trailer Toilet</h4>
+                        <p class="text-xs text-gray-500 mt-1">Hygienic flush sanitation trailer for guests and mourners.</p>
+                    </div>
+                </div>
+
+                <!-- Item 5: Granite Showroom -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="aspect-[16/10] bg-plum-950 overflow-hidden">
+                        <img src="Slot  3 Granite Showroom.jpg" 
+                             data-fallback="Slot 3 Granite Showroom.jpg|Slot%20%203%20Granite%20Showroom.jpg" 
+                             alt="Granite Showroom" 
+                             class="auto-img w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <span class="text-[10px] font-bold text-gold-600 uppercase tracking-widest">Memorials</span>
+                        <h4 class="font-bold text-gray-900 text-sm mt-0.5">Granite Showroom Display</h4>
+                        <p class="text-xs text-gray-500 mt-1">Polished Rustenburg granite with custom gold engraving.</p>
+                    </div>
+                </div>
+
+                <!-- Item 6: Executive Fleet Convoy -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="aspect-[16/10] bg-plum-950 overflow-hidden">
+                        <img src="Pillar Slot  4 Executive Mercedes Fleet.jpg" 
+                             data-fallback="Pillar Slot 4 Executive Mercedes Fleet.jpg|Pillar%20Slot%204%20Executive%20Mercedes%20Fleet.jpg" 
+                             alt="Executive Mercedes Fleet" 
+                             class="auto-img w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <span class="text-[10px] font-bold text-gold-600 uppercase tracking-widest">Escort Vehicles</span>
+                        <h4 class="font-bold text-gray-900 text-sm mt-0.5">Mercedes-Benz Convoy</h4>
+                        <p class="text-xs text-gray-500 mt-1">Coordinated family vehicles for dignified funeral procession.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 6: CONTACT US PAGE
+         ========================================================================= -->
+    <section id="page-contact" class="page-section flex-grow">
+        <div class="plum-gradient text-white py-14 px-4 sm:px-6 lg:px-8 text-center relative">
+            <div class="max-w-4xl mx-auto">
+                <span class="text-gold-300 text-xs font-bold uppercase tracking-widest">Get In Touch</span>
+                <h1 class="text-3xl sm:text-5xl font-bold mt-2">Contact Zimeleni Funeral Services</h1>
+                <p class="text-gray-200 text-sm sm:text-base mt-3 max-w-2xl mx-auto">
+                    We are available 24/7 for emergency house collections, branch visits, quotes, and tombstone catalogue requests.
+                </p>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+                
+                <!-- Contact Methods & Direct Numbers -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-widest text-gold-600">Immediate Reach</span>
+                        <h2 class="text-2xl font-bold text-plum-900 font-serif-title mt-1">We Are Here For You</h2>
+                        <p class="text-sm text-gray-600 mt-2">Choose the most convenient way to connect with our coordinators.</p>
+                    </div>
+
+                    <!-- Direct Card 1: Emergency -->
+                    <div class="bg-red-50 border border-red-200 rounded-2xl p-5 flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-red-600 text-white flex items-center justify-center flex-shrink-0 text-xl shadow">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs font-bold text-red-800 uppercase tracking-wider">24/7 Urgent House Removals</span>
+                            <div class="mt-1 space-y-0.5">
+                                <a href="tel:0842877162" class="block text-base font-extrabold text-gray-900 hover:text-red-700">084 287 7162</a>
+                                <a href="tel:0736244640" class="block text-sm font-semibold text-gray-700 hover:text-red-700">073 624 4640</a>
+                            </div>
+                            <span class="text-[11px] text-gray-500">Available day & night across Soweto</span>
+                        </div>
+                    </div>
+
+                    <!-- Direct Card 2: Office & Landline -->
+                    <div class="bg-white border border-gray-200 rounded-2xl p-5 flex items-start gap-4 shadow-sm">
+                        <div class="w-12 h-12 rounded-xl bg-plum-50 text-plum-800 flex items-center justify-center flex-shrink-0 text-xl">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs font-bold text-gray-500 uppercase tracking-wider">Jabavu Head Office Line</span>
+                            <a href="tel:0119300031" class="block text-base font-extrabold text-gray-900 hover:text-plum-800 mt-1">011 930 0031</a>
+                            <span class="text-[11px] text-gray-500">Office hours: Mon – Sat 08:00 – 17:00</span>
+                        </div>
+                    </div>
+
+                    <!-- Direct Card 3: WhatsApp Support -->
+                    <div class="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center flex-shrink-0 text-xl shadow">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs font-bold text-emerald-800 uppercase tracking-wider">WhatsApp Quotes & Catalogues</span>
+                            <a href="https://wa.me/27842877162" target="_blank" class="block text-base font-extrabold text-gray-900 hover:text-emerald-700 mt-1">084 287 7162</a>
+                            <span class="text-[11px] text-gray-500">Send tombstone pictures & inquiries</span>
+                        </div>
+                    </div>
+
+                    <!-- Direct Card 4: Email -->
+                    <div class="bg-white border border-gray-200 rounded-2xl p-5 flex items-start gap-4 shadow-sm">
+                        <div class="w-12 h-12 rounded-xl bg-gray-100 text-gray-800 flex items-center justify-center flex-shrink-0 text-xl">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs font-bold text-gray-500 uppercase tracking-wider">Official Email</span>
+                            <a href="mailto:zimelenifunerals@gmail.com" class="block text-sm sm:text-base font-bold text-gray-900 hover:text-plum-800 mt-1 break-all">zimelenifunerals@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inquiry & Callback Request Form -->
+                <div class="lg:col-span-7 bg-white rounded-3xl p-6 sm:p-10 border border-gray-200 shadow-md">
+                    <h3 class="text-xl sm:text-2xl font-bold text-plum-900 font-serif-title">Send Us a Message or Request a Callback</h3>
+                    <p class="text-xs sm:text-sm text-gray-600 mt-1">Fill out the quick form below and a representative will contact you immediately.</p>
+
+                    <form id="contact-form" onsubmit="handleFormSubmit(event)" class="mt-6 space-y-4">
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Your Full Name *</label>
+                            <input type="text" required placeholder="e.g. Nomvula Dlamini" class="w-full px-4 py-3 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-plum-800 focus:border-transparent">
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Phone Number *</label>
+                                <input type="tel" required placeholder="e.g. 082 123 4567" class="w-full px-4 py-3 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-plum-800 focus:border-transparent">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Your Area / Suburb</label>
+                                <input type="text" placeholder="e.g. Jabavu / Orange Farm" class="w-full px-4 py-3 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-plum-800 focus:border-transparent">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Service Inquiring About</label>
+                            <select class="w-full px-4 py-3 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-plum-800 focus:border-transparent">
+                                <option value="emergency">Emergency House Pick-Up / Body Removal</option>
+                                <option value="bogo">Tombstone Special: Buy 1 Get 1 Free (R3,999)</option>
+                                <option value="tombstone30k">Tombstone Special: R30,000+ (With Free Tent, Vitos & Toilet)</option>
+                                <option value="fullfuneral">Full Funeral / Burial Planning</option>
+                                <option value="equipment">Tent, Table, Chair & Food Warmer Hire</option>
+                                <option value="general">General Inquiry / Policy Information</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">How Can We Assist You?</label>
+                            <textarea rows="4" placeholder="Share any specific details or questions..." class="w-full px-4 py-3 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-plum-800 focus:border-transparent"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full gold-gradient hover:opacity-95 text-plum-950 font-extrabold py-3.5 px-6 rounded-xl transition text-base shadow-md flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-paper-plane"></i> Send Inquiry Now
+                        </button>
+
+                        <div id="form-success" class="hidden p-4 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-xl text-xs font-semibold text-center">
+                            Thank you! Your message has been received. A Zimeleni representative will call or WhatsApp you shortly.
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GLOBAL FOOTER -->
+    <footer class="bg-plum-950 text-white border-t-2 border-gold-500/40 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-gold-500 flex items-center justify-center font-serif text-plum-950 font-bold text-xl">
+                            Z
+                        </div>
+                        <div>
+                            <span class="block text-lg font-bold tracking-wider font-serif-title">ZIMELENI</span>
+                            <span class="block text-[9px] tracking-widest text-gold-400 uppercase">Funeral Services</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-300 leading-relaxed">
+                        Supporting families with dignity, respect, and reliable cultural funeral arrangements across Soweto and Gauteng.
+                    </p>
+                    <div class="flex gap-3 text-gold-400 text-base">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="hover:text-white transition" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://wa.me/27842877162" target="_blank" rel="noopener noreferrer" class="hover:text-white transition" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-gold-400 mb-3 font-serif-title">Navigation</h4>
+                    <ul class="space-y-2 text-xs text-gray-300">
+                        <li><button onclick="navigateTo('home')" class="hover:text-gold-300 transition">Home</button></li>
+                        <li><button onclick="navigateTo('services')" class="hover:text-gold-300 transition">Our Services</button></li>
+                        <li><button onclick="navigateTo('products')" class="hover:text-gold-300 transition">Tombstone Deals & Specials</button></li>
+                        <li><button onclick="navigateTo('about')" class="hover:text-gold-300 transition">About Our Company</button></li>
+                        <li><button onclick="navigateTo('gallery')" class="hover:text-gold-300 transition">Fleet & Gallery</button></li>
+                        <li><button onclick="navigateTo('contact')" class="hover:text-gold-300 transition">Contact & Branches</button></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-gold-400 mb-3 font-serif-title">Our Branches</h4>
+                    <div class="space-y-3 text-xs text-gray-300">
+                        <div>
+                            <strong class="text-white block">Head Office — Soweto:</strong>
+                            415 Dimakatso / Limakatso Street,<br>Central Western Jabavu, Soweto, 1809<br>
+                            <span class="text-gold-300">Near Midway Train Station</span>
+                        </div>
+                        <div>
+                            <strong class="text-white block">Orange Farm Branch:</strong>
+                            Driezek Ext 5, Orange Farm<br>
+                            <span class="text-gold-300">Opposite Dumping Side</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-gold-400 mb-3 font-serif-title">24/7 Assistance</h4>
+                    <p class="text-xs text-gray-300 mb-2">Call anytime for house removals:</p>
+                    <div class="space-y-1.5 text-xs">
+                        <a href="tel:0842877162" class="block font-bold text-gold-300 hover:underline"><i class="fa-solid fa-phone mr-1"></i> 084 287 7162</a>
+                        <a href="tel:0736244640" class="block font-bold text-gold-300 hover:underline"><i class="fa-solid fa-phone mr-1"></i> 073 624 4640</a>
+                        <a href="tel:0119300031" class="block text-gray-300 hover:underline"><i class="fa-solid fa-building mr-1"></i> 011 930 0031</a>
+                        <a href="mailto:zimelenifunerals@gmail.com" class="block text-gray-300 hover:underline break-all"><i class="fa-solid fa-envelope mr-1"></i> zimelenifunerals@gmail.com</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-10 pt-6 border-t border-white/10 text-center text-xs text-gray-400 flex flex-col sm:flex-row justify-between items-center gap-2">
+                <p>&copy; 2026 Zimeleni Funeral Services. All Rights Reserved.</p>
+                <p class="text-[11px] text-gray-500">Dignity, Honor and Compassion in Soweto & Beyond.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- PERSISTENT MOBILE FLOATING BOTTOM BAR -->
+    <div class="fixed bottom-0 inset-x-0 bg-white border-t border-gray-200 p-2 z-50 flex items-center gap-2 md:hidden shadow-2xl">
+        <a href="tel:0842877162" class="flex-1 bg-red-700 hover:bg-red-800 text-white font-bold py-3 px-3 rounded-xl text-center text-xs flex items-center justify-center gap-2 shadow-sm">
+            <i class="fa-solid fa-phone-volume text-sm animate-pulse"></i>
+            <span>Call 24/7 Emergency</span>
+        </a>
+        <a href="https://wa.me/27842877162?text=Hello%20Zimeleni%20Funeral%20Services,%20I%20would%20like%20to%20make%20an%20inquiry." target="_blank" rel="noopener noreferrer" class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-3 rounded-xl text-center text-xs flex items-center justify-center gap-2 shadow-sm">
+            <i class="fa-brands fa-whatsapp text-base"></i>
+            <span>WhatsApp Us</span>
+        </a>
+    </div>
+
+    <!-- JAVASCRIPT CONTROLLERS -->
+    <script>
+        // Automatic Image Fallback & URL Resolver
+        document.addEventListener('DOMContentLoaded', () => {
+            const images = document.querySelectorAll('.auto-img');
+            images.forEach(img => {
+                img.addEventListener('error', function() {
+                    const fallbackData = this.getAttribute('data-fallback');
+                    if (fallbackData) {
+                        const fallbacks = fallbackData.split('|');
+                        const currentSrc = decodeURIComponent(this.src).split('/').pop();
+                        
+                        // Try next available fallback in sequence
+                        for (let altPath of fallbacks) {
+                            if (altPath !== currentSrc && !this.src.endsWith(encodeURI(altPath))) {
+                                this.src = altPath;
+                                return;
+                            }
+                        }
+                    }
+                });
+            });
+        });
+
+        // SPA Tab Navigation System
+        function navigateTo(pageId) {
+            document.querySelectorAll('.page-section').forEach(el => {
+                el.classList.remove('active');
+            });
+
+            const target = document.getElementById('page-' + pageId);
+            if (target) {
+                target.classList.add('active');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                if (btn.getAttribute('data-nav') === pageId) {
+                    btn.classList.add('bg-plum-50', 'text-plum-800');
+                    btn.classList.remove('text-gray-700');
+                } else {
+                    btn.classList.remove('bg-plum-50', 'text-plum-800');
+                    btn.classList.add('text-gray-700');
+                }
+            });
+
+            document.querySelectorAll('[data-nav-mobile]').forEach(btn => {
+                if (btn.getAttribute('data-nav-mobile') === pageId) {
+                    btn.classList.add('bg-plum-50', 'text-plum-900');
+                    btn.classList.remove('text-gray-700');
+                } else {
+                    btn.classList.remove('bg-plum-50', 'text-plum-900');
+                    btn.classList.add('text-gray-700');
+                }
+            });
+        }
+
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            const icon = document.getElementById('menu-icon');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-xmark');
+            } else {
+                menu.classList.add('hidden');
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
+        }
+
+        function calculateEstimate() {
+            const val = parseInt(document.getElementById('calc-stone').value, 10);
+            const priceDisplay = document.getElementById('calc-price-display');
+            const bonusBox = document.getElementById('calc-bonus-box');
+
+            priceDisplay.textContent = 'R' + val.toLocaleString('en-ZA') + '.00';
+
+            if (val === 3999) {
+                bonusBox.className = "mt-3 p-3 bg-red-950/70 border border-red-500/50 rounded-xl text-xs text-red-200";
+                bonusBox.innerHTML = "<strong>Flyer Special:</strong> Includes 2nd Companion Headstone FREE (Buy One Get One Free)!";
+            } else if (val >= 30000) {
+                bonusBox.className = "mt-3 p-3 bg-emerald-950/80 border border-emerald-500/50 rounded-xl text-xs text-emerald-200";
+                bonusBox.innerHTML = "<strong>Qualifies for Full Vigil Package:</strong> 12x6m Tent + 2x Vito Vans + VIP Toilet + 100 Chairs + 4 Tables + Food Warmer ALL FREE!";
+            } else {
+                bonusBox.className = "mt-3 p-3 bg-plum-950/70 border border-white/20 rounded-xl text-xs text-gold-300";
+                bonusBox.innerHTML = "Standard individual monument with custom engraving and transport assistance.";
+            }
+        }
+
+        function sendCalculatedQuote() {
+            const val = document.getElementById('calc-stone').value;
+            const text = encodeURIComponent("Hello Zimeleni Funeral Services, I used your website calculator for the R" + val + " tombstone option. Please share details and ordering instructions.");
+            window.open("https://wa.me/27842877162?text=" + text, "_blank");
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const successBox = document.getElementById('form-success');
+            successBox.classList.remove('hidden');
+            e.target.reset();
+        }
+    </script>
+</body>
+</html>
